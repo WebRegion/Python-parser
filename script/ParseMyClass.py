@@ -69,7 +69,6 @@ class ParseMyClass:
 				k=j*shag
 				nachalo_stroki=0
 				while 0<k<=len(list[i]):
-					print(str(k)+"   sdf   "+str(len(list[i])))
 					if ord(list[i][k])!=32:
 						while  list[i][k] is not None and list[i][k]!=' ' and list[i][k]!='\n' and k>nachalo_stroki:
 							k=k-1
